@@ -1,9 +1,4 @@
-from pyrogram import Client, filters
-from pyrogram.types import *
-from pymongo import MongoClient
-import requests
-import os
-import re
+
 
 
 API_ID = os.environ.get("API_ID", None)) 
